@@ -1,5 +1,5 @@
 # ManimCE-Practice
-This page is only written to practice ManimCE related content, This page is only written for the practice of ManimCE related content, and some English are translated by Google, please forgive me if there is any inconsistency.
+This page is only written for the practice of ManimCE related content, and some English are translated by Google, please forgive me if there is any inconsistency.
 
 ## How to use ManimCE with Google Colab
 It is also possible to install Manim in a Google Colaboratory environment, but you will have to take care of that every time you start a new notebook in Google Colab.
