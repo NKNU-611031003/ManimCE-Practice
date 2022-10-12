@@ -5,7 +5,7 @@
 ```python
 from manim import *
 ```
-###### Main Code
+###### Main Command
 ```python
 class OP_Animate(Scene):
   def construct(self):
