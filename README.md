@@ -1,4 +1,6 @@
 # ManimCE-Practice
+This page is only written to practice ManimCE related content, This page is only written for the practice of ManimCE related content, and some English are translated by Google, please forgive me if there is any inconsistency.
+
 ## How to use ManimCE with Google Colab
 It is also possible to install Manim in a Google Colaboratory environment, but you will have to take care of that every time you start a new notebook in Google Colab.
 
@@ -41,5 +43,5 @@ You can change the name of *Filename*
 See more in [Jupyter Notebooks - Manim Commiunity v0.16.0.posy()](https://docs.manim.community/en/stable/installation/jupyter.html#)
 
 ---
-## Various types of math problems
+# Various types of math problems
 Solve various types of math problems, make ManimCE animations, and save related code
