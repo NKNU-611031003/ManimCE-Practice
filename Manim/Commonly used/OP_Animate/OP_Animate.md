@@ -2,11 +2,11 @@
 [](https://user-images.githubusercontent.com/105583349/195397090-560dbe8f-4945-4b6c-a486-03e8959676ac.mp4)
 
 # Code
-```python=
+```python
 from manim import *
 ```
 ###### Main Code
-```python=
+```python
 class OP_Animate(Scene):
   def construct(self):
     # logo
