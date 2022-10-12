@@ -4,7 +4,11 @@
 # Code
 ```python=
 from manim import *
-def ManimCELogo(self):
+```
+###### Main Code
+```python=
+class OP_Animate(Scene):
+  def construct(self):
     # logo
     banner = ManimBanner(dark_theme=False)
     circle_banner = Circle(color="#ece6e2", fill_opacity=1).surround(banner).scale(2)
@@ -14,13 +18,13 @@ def ManimCELogo(self):
     logo_Web = Text("https://docs.manim.community/en/stable/index.html", font_size=16).next_to(logo_Text, DOWN)
     # Group
     banner_Group = VGroup(circle_banner, banner)
-    logo_Text_Group = Group(logo_Text, logo_MadeBy, logo_Web)
+    logo_Text_Group = Group(logo_MadeBy, logo_Web)
 
     self.play(FadeIn(circle_banner), banner.create())
     self.play(banner.animate.scale(0.2), circle_banner.animate.scale(0.1))
     self.play(banner_Group.animate.next_to(logo_Text_Group, LEFT))
-    self.play(FadeIn(logo_Text_Group))
+    self.play(FadeIn(logo_Text_Group), Write(logo_Text), run_time=2.5)
     self.wait(3)
-    self.play(FadeOut(banner_Group), FadeOut(logo_Text_Group))
+    self.play(FadeOut(banner_Group), FadeOut(logo_Text_Group), FadeOut(logo_Text))
     self.wait()
 ```
